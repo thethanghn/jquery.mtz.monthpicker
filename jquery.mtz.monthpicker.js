@@ -183,7 +183,7 @@
         mountWidget: function (settings) {
             var
                 monthpicker = this,
-                container = $('<div id="'+ settings.id +'" class="ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" />'),
+                container = $('<div id="'+ settings.id +'" class="ui-monthpicker ui-datepicker ui-widget ui-widget-content ui-helper-clearfix ui-corner-all" />'),
                 header = $('<div class="ui-datepicker-header ui-widget-header ui-helper-clearfix ui-corner-all mtz-monthpicker" />'),
                 combo = $('<select class="mtz-monthpicker mtz-monthpicker-year" />'),
                 table = $('<table class="mtz-monthpicker" />'),
